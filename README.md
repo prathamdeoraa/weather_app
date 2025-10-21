@@ -12,7 +12,6 @@ A new Flutter project.
 
 ### Some of screenshot :
 
-<![alt](flutter_01.png)
-<![alt](flutter_02.png)
-<![alt](flutter_03.png)
-# weather_app
+<img src="flutter_01.png" width="100" height="200">   
+<img src="flutter_02.png" width="100" height="200">   
+<img src="flutter_03.png" width="!00" height="200">

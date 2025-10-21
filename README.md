@@ -12,6 +12,6 @@ A new Flutter project.
 
 ### Some of screenshot :
 
-<img src="flutter_01.png" width="100" height="200">   
-<img src="flutter_02.png" width="100" height="200">   
-<img src="flutter_03.png" width="!00" height="200">
+<img src="flutter_01.png" width="200" height="400">   
+<img src="flutter_02.png" width="200" height="400">   
+<img src="flutter_03.png" width="200" height="400">

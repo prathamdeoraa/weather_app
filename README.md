@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-### I have made Weather App which can fetch data using API and give live status of whether according to city
+### I have made Weather App which can fetch data using API and give live status of Weather according to city, state and country name input.
 
 ### I have used this api
 

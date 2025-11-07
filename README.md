@@ -15,3 +15,6 @@ A new Flutter project.
 <img src="flutter_01.png" width="200" height="400">   
 <img src="flutter_02.png" width="200" height="400">   
 <img src="flutter_03.png" width="200" height="400">
+
+API_KEY = '43ff547290494ab5844174949252110'
+BASE_URL = "https://api.weatherapi.com/v1"

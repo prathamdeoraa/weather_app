@@ -1,10 +1,12 @@
 import 'dart:convert';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 import 'package:http/http.dart' as http;
 import 'package:weather_app/model/screen_model.dart';
 
 class WeatherServices {
-  final String apiKey = "43ff547290494ab5844174949252110";
-  final String baseUrl = "https://api.weatherapi.com/v1";
+  final String apiKey = dotenv.env['API_KEY']!;
+  final String baseUrl = dotenv.env['BASE_URL']!;
 
   Future<Weather> fetchWeather(String cityName) async {
     if (cityName.isEmpty) {
@@ -12,7 +14,9 @@ class WeatherServices {
     }
 
     try {
-      final url = Uri.parse("$baseUrl/current.json?key=$apiKey&q=$cityName&aqi=no");
+      final url = Uri.parse(
+        "$baseUrl/current.json?key=$apiKey&q=$cityName&aqi=no",
+      );
       final response = await http.get(url);
 
       if (response.statusCode == 200) {
